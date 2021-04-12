@@ -1,8 +1,8 @@
 #!/bin/bash
 
-HOST="192.168.110.46"
-USER="fvergara"
-PASS="entel123"
+HOST="xxxxxx"
+USER="xxxxx"
+PASS="xxxxxx"
 RUTA_PROTOKOLL="/home/wiq/wIQ_R2/data/log/"
 PROTOKOLL="Protocol."
 CONTADOR=9
