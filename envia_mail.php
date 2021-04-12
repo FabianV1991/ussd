@@ -1,19 +1,15 @@
 <?php
 require("/home/prepago/apps/tp/lib/class.phpmailer.php");
-$MAILCC="soporte@allware.cl";
+$MAILCC="xxxxxx@xxxxxx.cl";
 $FECHA=date("Y-m-d");
 $FECHA_REPORTE=date("Ymd");
 
 //envio EMAIL
 $mail = new PHPMailer();
-$mail->From = "SoporteOperacional@entel.cl";
+$mail->From = "xxxxxxx@entel.cl";
 $mail->FromName = "Soporte Prepago";
 
-$mail->addAddress('ovaspp@entel.cl','IAADIAZ@entel.cl','CPFLORES@entel.cl','MAQUIJADA@entel.cl','RMNUNEZ@entel.cl');
-##$mail->addAddress('IAADIAZ@entel.cl');
-##$mail->addAddress('CPFLORES@entel.cl');
-##$mail->addAddress('MAQUIJADA@entel.cl');
-##$mail->addAddress('RMNUNEZ@entel.cl');
+$mail->addAddress('xxxx@entel.cl','xxxxx@entel.cl','xxxxx@entel.cl','xxxxx@entel.cl','xxxxxx@entel.cl');
 
 $mail->AddCC($MAILCC);
 $mail->Subject = "Reporte USSD $FECHA";
