@@ -1,9 +1,9 @@
 #!/bin/bash
 
-USER="fvergara"
-PASS="f4b14n123"
-HOST_1="172.29.64.74"
-HOST_2="172.29.64.75"
+USER="xxxxxx"
+PASS="xxxx"
+HOST_1="xxxxxx"
+HOST_2="xxxxxx"
 RUTA_LOG="/home/obqs/edbqs/log/edbqs.log"
 CONTADOR=1
 RUTA_1="/home/prepago/apps/WIQ/logs"
